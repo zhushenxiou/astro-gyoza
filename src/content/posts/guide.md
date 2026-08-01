@@ -126,10 +126,6 @@ pnpm preview
   "waline": {
     "serverURL": ""
   },
-  // 赞助
-  "sponsor": {
-    "wechat": "" // 微信赞赏码图片地址
-  },
   // 如果需要使用网站数据统计，将 enable 修改为 true，并填写对应的配置
   "analytics": {
     "enable": false,

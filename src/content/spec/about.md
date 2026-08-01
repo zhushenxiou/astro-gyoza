@@ -17,14 +17,4 @@ Gyoza 是开源的，如果你对这个项目感兴趣，欢迎前往 Gyoza 的 
 
 ## 关于作者
 
-我是 lxchapu，是一名前端开发者，喜欢各种有趣的东西。欢迎访问我的个人网站 [www.lxchapu.com](https://www.lxchapu.com)，了解关于我更多的信息。
-
-## 致谢
-
-感谢以下项目：
-
-- [Astro](https://astro.build/)
-- [React](https://reactjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [Jotai](https://jotai.org/)
+我是 神秀，是一名全栈开发者，喜欢各种有趣的东西，喜欢钻研技术。
