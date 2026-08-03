@@ -104,8 +104,8 @@ export function TocItem({
       ></span>
       <a
         className={clsx(
-          'inline-block pl-8 opacity-0 transition-opacity duration-300',
-          isActive ? 'opacity-100' : 'group-hover:opacity-100 text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-100',
+          'inline-block pl-8 transition-opacity duration-300',
+          isActive ? 'text-accent font-medium' : 'text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-100',
         )}
         href={`#${slug}`}
       >

@@ -13,7 +13,6 @@ import { Outdate } from '@/components/post/Outdate'
 import PostNav from '@/components/post/PostNav.astro'
 import { Comments } from '@/components/comment'
 import { ActionAside } from '@/components/post/ActionAside'
-import { PostCopyright } from '@/components/post/PostCopyright'
 
 export const getStaticPaths = (async () => {
   const sortedPosts = await getSortedPosts()
@@ -103,7 +102,6 @@ const lastMod = current.data.lastMod || current.data.date
     </div>
     <div data-pagefind-ignore>
       <section class="space-y-6">
-        <PostCopyright title={current.data.title} slug={mdSlug} lastMod={lastMod} client:visible />
         <PostNav prev={prev} next={next} />
         {current.data.comments && <Comments />}
       </section>
