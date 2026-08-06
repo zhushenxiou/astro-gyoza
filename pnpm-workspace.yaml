@@ -1,7 +1,9 @@
 allowBuilds:
+  cpu-features: true
   esbuild: true
   sharp: true
   simple-git-hooks: true
+  ssh2: true
 
 overrides:
   zod-to-json-schema: 3.24.5
