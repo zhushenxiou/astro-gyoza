@@ -1,7 +1,7 @@
 ---
-title: RAG 流程解析
+title: RAG 流程概述
 date: 2026-07-16
-summary: 深度拆解 RAG（检索增强生成）全链路：索引构建、向量召回、重排精排、Prompt 生成四大环节的技术选型、工程细节与避坑指南。
+summary: 简单拆解 RAG（检索增强生成）全链路：索引构建、向量召回、重排精排、Prompt 生成四大环节的技术选型、工程细节与避坑指南。
 category: 技术文章
 tags: [RAG, LLM, Embedding, 向量数据库, AI应用]
 sticky: 0
